@@ -2,7 +2,7 @@
 	"manifest_version":2,
 	"name":"FancyBird Breed Count plugin",
 	"version":"1.0",
-	"description":"Make sure you're connected to fancy website. Reach me at Discord Donald#6329 for assistence",
+	"description":"Make sure you're connected to fancy website. Find the bird on Opensea and middle mouse click. Reach me at Discord Donald#6329 for assistence",
 	"icons": {
 		"16": "/images/Fancy-16x16.png",
 		"48": "/images/Fancy-48x48.png",
