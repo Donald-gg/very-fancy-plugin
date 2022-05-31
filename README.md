@@ -12,6 +12,12 @@ You can turn off the developer option now.<br>
 ![VeryFancy](https://user-images.githubusercontent.com/105006696/171110484-8a610bd4-a741-4f33-b5b7-9dcdaf2c159f.gif)<br>
 The extension works with brave browser too
 
+### How does it work?
+Visit fancybirds collection on opensea<br>
+Find the bird whose breed count you want to know<br>
+Middle mouse click on the bird image on the main page to see the breed count<br>
+Note:- You do need to be signed in to fancybirds.io to see the actual breed count<br>
+
 ### Why is this not in chrome store and is it safe?
 Chrome extension store requires developer account which is subscription based and since I don't charge anything for this app, it makes zero sense to have this plugin posted on chrome store.<br>
 The app uses simple jquery functions that fetch the right address and redirect the user to it. You can look into the code if you're concerned.   
