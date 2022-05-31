@@ -1,0 +1,27 @@
+{
+	"manifest_version":2,
+	"name":"FancyBird Breed Count plugin",
+	"version":"1.0",
+	"description":"Make sure you're connected to fancy website. Reach me at Discord Donald#6329 for assistence",
+	"icons": {
+		"16": "/images/Fancy-16x16.png",
+		"48": "/images/Fancy-48x48.png",
+		"128": "/images/Fancy-128x128.png"
+	},
+	"background":{"scripts":["js/jquery-3.6.0.min.js"]},
+	"permissions": ["*://opensea.io/collection/fancybirds-genesis/*"],
+	"content_scripts":[
+		{
+			"matches": [
+		  	"*://opensea.io/collection/fancybirds-genesis/*"
+		  ],
+		  "permissions": ["*://opensea.io/collection/fancybirds-genesis/*"],
+		  "js": [
+		  	"js/jquery-3.6.0.min.js",
+			"js/jquery.urldecoder.min.js",
+		  	"js/script.js"
+		  ],
+		  "run_at": "document_idle"
+		}
+	]
+}
